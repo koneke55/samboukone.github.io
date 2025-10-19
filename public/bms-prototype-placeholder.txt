@@ -1,0 +1,11 @@
+# BMS Prototype Image
+
+Please add your BMS prototype image to the public folder as `bms-prototype.jpg`.
+
+The image should show:
+- Arduino board with connected wires
+- Perfboard with electronic modules
+- Battery management module with 7-segment display showing "188"
+- Various LEDs and connections
+
+This image will be displayed in the Smart Battery Management System project card.

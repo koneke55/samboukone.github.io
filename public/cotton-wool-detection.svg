@@ -1,0 +1,44 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Eye -->
+  <ellipse cx="200" cy="150" rx="120" ry="80" fill="#ffffff" stroke="#34495e" stroke-width="3"/>
+  <ellipse cx="200" cy="150" rx="100" ry="65" fill="#3498db" opacity="0.2"/>
+  <circle cx="200" cy="150" r="40" fill="#2c3e50"/>
+  <circle cx="210" cy="140" r="15" fill="#ffffff"/>
+  <circle cx="215" cy="135" r="5" fill="#2c3e50"/>
+  
+  <!-- Cotton Wool Spots -->
+  <circle cx="120" cy="120" r="15" fill="#ecf0f1" opacity="0.9"/>
+  <circle cx="280" cy="130" r="12" fill="#ecf0f1" opacity="0.9"/>
+  <circle cx="160" cy="180" r="18" fill="#ecf0f1" opacity="0.9"/>
+  <circle cx="240" cy="190" r="10" fill="#ecf0f1" opacity="0.9"/>
+  <circle cx="180" cy="200" r="14" fill="#ecf0f1" opacity="0.9"/>
+  
+  <!-- Detection Highlights -->
+  <circle cx="120" cy="120" r="20" fill="none" stroke="#e74c3c" stroke-width="3" stroke-dasharray="5,5"/>
+  <circle cx="280" cy="130" r="17" fill="none" stroke="#e74c3c" stroke-width="3" stroke-dasharray="5,5"/>
+  <circle cx="160" cy="180" r="23" fill="none" stroke="#e74c3c" stroke-width="3" stroke-dasharray="5,5"/>
+  
+  <!-- AI Analysis -->
+  <rect x="50" y="50" width="100" height="60" rx="5" fill="#2ecc71" opacity="0.8"/>
+  <text x="100" y="75" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">AI Analysis</text>
+  <text x="100" y="90" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Detecting Cotton</text>
+  <text x="100" y="105" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Wool Spots</text>
+  
+  <!-- Results -->
+  <rect x="250" y="50" width="100" height="60" rx="5" fill="#e74c3c" opacity="0.8"/>
+  <text x="300" y="75" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Results</text>
+  <text x="300" y="90" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Diabetic</text>
+  <text x="300" y="105" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Retinopathy</text>
+  
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Cotton Wool Detection System</text>
+  
+  <!-- Features -->
+  <text x="50" y="280" fill="#34495e" font-family="Arial, sans-serif" font-size="12">• Computer Vision</text>
+  <text x="150" y="280" fill="#34495e" font-family="Arial, sans-serif" font-size="12">• Medical AI</text>
+  <text x="250" y="280" fill="#34495e" font-family="Arial, sans-serif" font-size="12">• Early Diagnosis</text>
+  <text x="350" y="280" fill="#34495e" font-family="Arial, sans-serif" font-size="12">• Image Processing</text>
+</svg>

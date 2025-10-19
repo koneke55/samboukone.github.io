@@ -1,0 +1,67 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f5f5dc"/>
+  
+  <!-- Arduino Board -->
+  <rect x="20" y="100" width="80" height="60" rx="5" fill="#2c3e50"/>
+  <rect x="25" y="105" width="70" height="50" rx="3" fill="#34495e"/>
+  <circle cx="30" cy="115" r="2" fill="#e74c3c"/>
+  <circle cx="35" cy="115" r="2" fill="#f39c12"/>
+  <circle cx="40" cy="115" r="2" fill="#95a5a6"/>
+  <circle cx="45" cy="115" r="2" fill="#ffffff"/>
+  
+  <!-- Wires -->
+  <line x1="100" y1="120" x2="150" y2="120" stroke="#e74c3c" stroke-width="3"/>
+  <line x1="100" y1="125" x2="150" y2="125" stroke="#f39c12" stroke-width="3"/>
+  <line x1="100" y1="130" x2="150" y2="130" stroke="#95a5a6" stroke-width="3"/>
+  <line x1="100" y1="135" x2="150" y2="135" stroke="#ffffff" stroke-width="3"/>
+  
+  <!-- Perfboard -->
+  <rect x="150" y="80" width="120" height="100" rx="5" fill="#8b4513"/>
+  <g fill="#654321">
+    <circle cx="160" cy="90" r="1"/>
+    <circle cx="170" cy="90" r="1"/>
+    <circle cx="180" cy="90" r="1"/>
+    <circle cx="190" cy="90" r="1"/>
+    <circle cx="200" cy="90" r="1"/>
+    <circle cx="210" cy="90" r="1"/>
+    <circle cx="220" cy="90" r="1"/>
+    <circle cx="230" cy="90" r="1"/>
+    <circle cx="240" cy="90" r="1"/>
+    <circle cx="250" cy="90" r="1"/>
+    <circle cx="260" cy="90" r="1"/>
+    <circle cx="270" cy="90" r="1"/>
+  </g>
+  
+  <!-- Electronic Modules -->
+  <rect x="160" y="100" width="40" height="30" rx="3" fill="#34495e"/>
+  <rect x="210" y="100" width="40" height="30" rx="3" fill="#34495e"/>
+  <circle cx="170" cy="110" r="2" fill="#e74c3c"/>
+  <circle cx="220" cy="110" r="2" fill="#e74c3c"/>
+  <rect x="175" y="108" width="10" height="4" rx="2" fill="#3498db"/>
+  <rect x="225" y="108" width="10" height="4" rx="2" fill="#3498db"/>
+  
+  <!-- Battery Module -->
+  <rect x="300" y="90" width="80" height="80" rx="5" fill="#27ae60"/>
+  <rect x="310" y="100" width="60" height="60" rx="3" fill="#2ecc71"/>
+  
+  <!-- 7-Segment Display -->
+  <rect x="320" y="110" width="40" height="20" rx="2" fill="#000000"/>
+  <text x="340" y="125" text-anchor="middle" fill="#00ff00" font-family="monospace" font-size="16" font-weight="bold">188</text>
+  
+  <!-- USB Ports -->
+  <rect x="315" y="170" width="15" height="8" rx="2" fill="#34495e"/>
+  <rect x="335" y="170" width="15" height="8" rx="2" fill="#34495e"/>
+  <rect x="355" y="170" width="15" height="8" rx="2" fill="#34495e"/>
+  
+  <!-- Battery -->
+  <rect x="320" y="50" width="20" height="40" rx="10" fill="#3498db"/>
+  
+  <!-- Connection Wires -->
+  <line x1="270" y1="120" x2="300" y2="120" stroke="#2c3e50" stroke-width="3"/>
+  <line x1="270" y1="130" x2="300" y2="130" stroke="#3498db" stroke-width="3"/>
+  
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="18" font-weight="bold">BMS Prototype</text>
+  <text x="200" y="50" text-anchor="middle" fill="#7f8c8d" font-family="Arial, sans-serif" font-size="12">Machine Learning Enhanced Battery Management System</text>
+</svg>
