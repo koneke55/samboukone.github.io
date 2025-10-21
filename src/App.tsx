@@ -14,7 +14,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/samboukone.github.io">
+      <BrowserRouter basename="/sk">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/project/:projectId" element={<ProjectDetail />} />
