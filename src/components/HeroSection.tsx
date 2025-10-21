@@ -50,7 +50,7 @@ export const HeroSection = () => {
           </div>
 
           <p className="text-base md:text-lg text-muted-foreground max-w-lg leading-relaxed">
-            Graduate specializing in Machine Learning and Deep Learning with a focus on Non-Linear Dynamical Systems and Collective Behavior in Complex Dynamical Networks.
+            Passionate about advancing AI-driven solutions in medical diagnostics, smart autonomous systems, and multilingual NLP. Bridging cutting-edge research with real-world applications to solve complex challenges.
           </p>
 
           <div className="flex flex-wrap gap-3 md:gap-4">
