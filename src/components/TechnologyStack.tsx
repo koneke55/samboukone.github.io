@@ -1,3 +1,5 @@
+import { getAssetPath } from "@/lib/assets";
+
 export const TechnologyStack = () => {
   const technologies = [
     {
@@ -62,7 +64,7 @@ export const TechnologyStack = () => {
                 className="group flex-shrink-0 mx-4 p-6 rounded-lg bg-secondary/30 border border-primary/20 hover:border-primary/50 hover:bg-secondary/40 transition-all duration-300 text-center min-w-[200px]"
               >
                 <img 
-                  src={tech.logo} 
+                  src={getAssetPath(tech.logo)} 
                   alt={tech.name} 
                   className="w-16 h-16 mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" 
                 />

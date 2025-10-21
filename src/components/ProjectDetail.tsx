@@ -2,6 +2,7 @@ import { useState } from "react";
 import { ArrowLeft, ExternalLink, Github, Calendar, Tag } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useNavigate, useParams } from "react-router-dom";
+import { getAssetPath } from "@/lib/assets";
 
 export const ProjectDetail = () => {
   const navigate = useNavigate();
@@ -243,7 +244,7 @@ export const ProjectDetail = () => {
             
             <div className="w-full lg:w-96">
               <img 
-                src={project.images?.[0] || "/placeholder.jpg"} 
+                src={getAssetPath(project.images?.[0] || "/placeholder.jpg")} 
                 alt={project.title}
                 className="w-full h-64 object-cover rounded-lg border border-primary/20"
               />

@@ -1,6 +1,7 @@
 import { ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
+import { getAssetPath } from "@/lib/assets";
 
 export const ProjectsSection = () => {
   const navigate = useNavigate();
@@ -79,7 +80,7 @@ export const ProjectsSection = () => {
                   {/* Main Image */}
                   <div className="rounded-lg overflow-hidden mb-2">
                     <img 
-                      src={project.images[0]} 
+                      src={getAssetPath(project.images[0])} 
                       alt={project.title}
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                     />
@@ -90,7 +91,7 @@ export const ProjectsSection = () => {
                       {project.images.slice(1, 3).map((img, imgIndex) => (
                         <div key={imgIndex} className="rounded-lg overflow-hidden">
                           <img 
-                            src={img} 
+                            src={getAssetPath(img)} 
                             alt={`${project.title} ${imgIndex + 2}`}
                             className="w-full h-20 object-cover group-hover:scale-105 transition-transform duration-300"
                           />
