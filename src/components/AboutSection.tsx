@@ -56,7 +56,7 @@ export const AboutSection = () => {
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground">Cognitive Science Research</span>
                   <div className="w-20 h-2 bg-secondary rounded-full overflow-hidden">
-                    <div className="w-4/5 h-full bg-primary rounded-full"></div>
+                    <div className="w-4/5 lsh-full bg-primary rounded-full"></div>
                   </div>
                 </div>
                 <div className="flex items-center justify-between">
