@@ -1,0 +1,49 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Medical Cross -->
+  <rect x="180" y="50" width="40" height="200" rx="5" fill="#e74c3c"/>
+  <rect x="120" y="130" width="160" height="40" rx="5" fill="#e74c3c"/>
+  
+  <!-- AI Brain -->
+  <circle cx="200" y="100" r="30" fill="#3498db" opacity="0.8"/>
+  <circle cx="190" y="95" r="5" fill="#ffffff"/>
+  <circle cx="210" y="95" r="5" fill="#ffffff"/>
+  <path d="M185 105 Q200 115 215 105" stroke="#ffffff" stroke-width="2" fill="none"/>
+  
+  <!-- Neural Network -->
+  <circle cx="150" y="80" r="8" fill="#2ecc71"/>
+  <circle cx="250" y="80" r="8" fill="#2ecc71"/>
+  <circle cx="150" y="120" r="8" fill="#2ecc71"/>
+  <circle cx="250" y="120" r="8" fill="#2ecc71"/>
+  <circle cx="200" y="100" r="12" fill="#f39c12"/>
+  
+  <!-- Connection Lines -->
+  <line x1="150" y1="80" x2="200" y2="100" stroke="#34495e" stroke-width="2"/>
+  <line x1="250" y1="80" x2="200" y2="100" stroke="#34495e" stroke-width="2"/>
+  <line x1="150" y1="120" x2="200" y2="100" stroke="#34495e" stroke-width="2"/>
+  <line x1="250" y1="120" x2="200" y2="100" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- Skin Analysis -->
+  <rect x="100" y="200" width="200" height="60" rx="10" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+  <circle cx="130" cy="230" r="8" fill="#f1c40f"/>
+  <circle cx="170" cy="230" r="6" fill="#e67e22"/>
+  <circle cx="210" cy="230" r="7" fill="#e74c3c"/>
+  <circle cx="250" cy="230" r="5" fill="#27ae60"/>
+  
+  <!-- Analysis Lines -->
+  <line x1="120" y1="200" x2="130" y2="230" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="160" y1="200" x2="170" y2="230" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="200" y1="200" x2="210" y2="230" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="240" y1="200" x2="250" y2="230" stroke="#e74c3c" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="24" font-weight="bold">AI-Derma-Doctor</text>
+  <text x="200" y="50" text-anchor="middle" fill="#7f8c8d" font-family="Arial, sans-serif" font-size="14">AI-Powered Dermatology Assistant</text>
+  
+  <!-- Features -->
+  <text x="50" y="280" fill="#34495e" font-family="Arial, sans-serif" font-size="12">• Skin Condition Analysis</text>
+  <text x="200" y="280" fill="#34495e" font-family="Arial, sans-serif" font-size="12">• Treatment Recommendations</text>
+  <text x="300" y="280" fill="#34495e" font-family="Arial, sans-serif" font-size="12">• Deep Learning Models</text>
+</svg>

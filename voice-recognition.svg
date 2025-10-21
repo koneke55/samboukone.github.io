@@ -1,0 +1,50 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Microphone -->
+  <rect x="180" y="80" width="40" height="80" rx="20" fill="#34495e"/>
+  <rect x="190" y="160" width="20" height="20" rx="10" fill="#34495e"/>
+  <line x1="200" y1="180" x2="200" y2="200" stroke="#34495e" stroke-width="4"/>
+  
+  <!-- Sound Waves -->
+  <path d="M120 150 Q140 130 160 150 Q180 170 200 150 Q220 130 240 150 Q260 170 280 150" stroke="#3498db" stroke-width="4" fill="none" opacity="0.8"/>
+  <path d="M110 150 Q135 120 160 150 Q185 180 210 150 Q235 120 260 150 Q285 180 310 150" stroke="#3498db" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M100 150 Q130 110 160 150 Q190 190 220 150 Q250 110 280 150 Q310 190 340 150" stroke="#3498db" stroke-width="2" fill="none" opacity="0.4"/>
+  
+  <!-- Neural Network -->
+  <circle cx="100" cy="100" r="15" fill="#e74c3c"/>
+  <circle cx="300" cy="100" r="15" fill="#e74c3c"/>
+  <circle cx="100" cy="200" r="15" fill="#e74c3c"/>
+  <circle cx="300" cy="200" r="15" fill="#e74c3c"/>
+  <circle cx="200" cy="150" r="20" fill="#f39c12"/>
+  
+  <!-- Connection Lines -->
+  <line x1="100" y1="100" x2="200" y2="150" stroke="#34495e" stroke-width="3" opacity="0.6"/>
+  <line x1="300" y1="100" x2="200" y2="150" stroke="#34495e" stroke-width="3" opacity="0.6"/>
+  <line x1="100" y1="200" x2="200" y2="150" stroke="#34495e" stroke-width="3" opacity="0.6"/>
+  <line x1="300" y1="200" x2="200" y2="150" stroke="#34495e" stroke-width="3" opacity="0.6"/>
+  
+  <!-- Audio Processing -->
+  <rect x="50" y="50" width="80" height="40" rx="5" fill="#2ecc71" opacity="0.8"/>
+  <text x="90" y="70" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">MFCC</text>
+  <text x="90" y="85" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Features</text>
+  
+  <rect x="270" y="50" width="80" height="40" rx="5" fill="#2ecc71" opacity="0.8"/>
+  <text x="310" y="70" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">FBANK</text>
+  <text x="310" y="85" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Features</text>
+  
+  <!-- PyTorch Logo -->
+  <rect x="150" y="220" width="100" height="40" rx="5" fill="#ee4c2c" opacity="0.8"/>
+  <text x="200" y="240" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">PyTorch</text>
+  <text x="200" y="255" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Neural Networks</text>
+  
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="22" font-weight="bold">Human Voice Recognition System</text>
+  
+  <!-- Features -->
+  <text x="50" y="280" fill="#34495e" font-family="Arial, sans-serif" font-size="12">• Feed Forward NN</text>
+  <text x="150" y="280" fill="#34495e" font-family="Arial, sans-serif" font-size="12">• PyTorch</text>
+  <text x="250" y="280" fill="#34495e" font-family="Arial, sans-serif" font-size="12">• DSP Processing</text>
+  <text x="350" y="280" fill="#34495e" font-family="Arial, sans-serif" font-size="12">• Audio Analysis</text>
+</svg>
