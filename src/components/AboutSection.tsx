@@ -23,8 +23,8 @@ export const AboutSection = () => {
               </p>
             </div>
 
-            <div className="flex items-center gap-3 px-6 py-4 rounded-lg bg-secondary/30 border border-primary/20">
-              <span className="w-3 h-3 rounded-full bg-primary animate-pulse"></span>
+            <div className="flex items-center gap-3 px-6 py-4 rounded-lg bg-secondary/30 border border-green-500/20">
+              <span className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></span>
               <span className="font-medium">Available for work and research collaborations</span>
             </div>
           </div>
