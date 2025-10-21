@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 import profileImage from "@/assets/profile.jpg";
 import { TypewriterName } from "./TypewriterName";
 
@@ -105,6 +105,14 @@ export const HeroSection = () => {
               className="p-3 rounded-lg bg-secondary/50 border border-primary/20 hover:bg-primary/10 hover:border-primary/50 transition-all duration-300 group"
             >
               <Linkedin className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
+            </a>
+            <a 
+              href="https://twitter.com/koneke55" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-3 rounded-lg bg-secondary/50 border border-primary/20 hover:bg-primary/10 hover:border-primary/50 transition-all duration-300 group"
+            >
+              <Twitter className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
             </a>
             <a 
               href="mailto:samboukone99@gmail.com"
