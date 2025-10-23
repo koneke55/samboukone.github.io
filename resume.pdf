@@ -1,0 +1,9 @@
+This is a placeholder for your resume PDF.
+Please replace this file with your actual resume PDF at: public/resume.pdf
+
+To add your resume:
+1. Create your resume as a PDF file
+2. Name it "resume.pdf"
+3. Place it in the public folder
+4. The download button will automatically serve your resume
+
